@@ -1,8 +1,22 @@
-node_modules
-.next
-out
+# Dependencies
+node_modules/
+.next/
+out/
+
+# Environment
 .env
-.env*.local
-.vercel
-*.log
+.env.local
+
+# Debug
+npm-debug.log*
+
+# Prisma
+prisma/*.db
+
+# IDE
+.idea/
+.vscode/
+
+# OS
 .DS_Store
+Thumbs.db
